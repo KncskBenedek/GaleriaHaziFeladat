@@ -25,7 +25,6 @@ var hely = 0;
 function init() {
     leiras();
     kep();
-
 }
 
 function ID(elem) {
@@ -48,7 +47,7 @@ function bal() {
     kep();
 }
 function jobb(){
-    if(jobb === kepekObj.length-1){
+    if(hely === kepekObj.length-1){
         hely = 0;
     }else{
         hely+=1;
