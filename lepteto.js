@@ -3,27 +3,27 @@ var kepekObj = [
     {
         ut: "kepek/_DSC7025.jpg",
         leiras: "Bolond állatok",
-        id: "kep1",
+
     },
     {
         ut: "kepek/_DSC7365.jpg",
         leiras: "virágzó út",
-        id: "kep2",
+
     },
     {
         ut: "kepek/_DSC7371_1.jpg",
         leiras: "Nap lemente",
-        id: "kep3",
+
     },
     {
         ut: "kepek/_DSC7444.jpg",
         leiras: "Tájkép",
-        id: "kep4",
+
     },
     {
         ut: "kepek/_DSC7515.jpg",
         leiras: "Akác sor",
-        id: "kep5",
+
     },
 ];
 var hely = 0;
@@ -62,9 +62,11 @@ function jobb() {
 }
 
 function kepreKatt() {
-    var kepId = event.target.id;
+    var kepId = event.target.src;
+//    console.log(kepId);
+//    console.log( )
     var i = 0;
-    while(!(kepId === kepekObj[i].id)){
+    while(!(kepId.includes(kepekObj[i].ut))){
         i++;
     }
     hely = i;
