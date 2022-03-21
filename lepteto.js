@@ -28,8 +28,7 @@ var kepekObj = [
 ];
 var hely = 0;
 function init() {
-    leiras();
-    kep();
+    nagyKepValt();
 }
 
 function ID(elem) {
@@ -42,14 +41,19 @@ function leiras() {
 function kep() {
     ID("nagykep").src = kepekObj[hely].ut;
 }
+
+function nagyKepValt(){
+    kep();
+    leiras();
+}
+
 function bal() {
     if (hely === 0) {
         hely = kepekObj.length - 1;
     } else {
         hely -= 1;
     }
-    leiras();
-    kep();
+    nagyKepValt();
 }
 function jobb() {
     if (hely === kepekObj.length - 1) {
@@ -57,8 +61,7 @@ function jobb() {
     } else {
         hely += 1;
     }
-    leiras();
-    kep();
+    nagyKepValt();
 }
 
 function kepreKatt() {
@@ -70,6 +73,5 @@ function kepreKatt() {
         i++;
     }
     hely = i;
-    leiras();
-    kep();
+    nagyKepValt();
 }
