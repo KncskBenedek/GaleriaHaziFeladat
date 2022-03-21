@@ -9,22 +9,22 @@
     <script src="lepteto.js"></script>
   </head>
   <body>
-    <h1>Képgaléria</h1>
-    <div id="galeria">
-    <button id="bal" onclick="bal()"><<</button>
-    <div id="nagyDiv">
+    <main>
+      <h1>Képgaléria</h1>
       <p id="leiras"></p>
-      <img id="nagykep" src="" alt="nagy kep" />
-    </div>
-    <button id="jobb" onclick="jobb()">>></button>
-  </div>
-    <div class="kisKepek">
-      <img src="kepek/_DSC7025.jpg" alt="kep1" onclick="kepreKatt()"/>
-      <img src="kepek/_DSC7365.jpg" alt="kep2" onclick="kepreKatt()"/>
-      <img src="kepek/_DSC7371_1.jpg" alt="kep3" onclick="kepreKatt()"/>
-      <img src="kepek/_DSC7444.jpg" alt="kep4" onclick="kepreKatt()"/>
-      <img src="kepek/_DSC7515.jpg" alt="kep5" onclick="kepreKatt()"/>
-    </div>
-    
+      <section>
+
+        <button id="bal" onclick="bal()"><<</button>
+        <img id="nagykep" src="" alt="nagy kep" />
+        <button id="jobb" onclick="jobb()">>></button>
+      </section>
+      <article>
+        <img src="kepek/_DSC7025.jpg" alt="kep1" onclick="kepreKatt()" />
+        <img src="kepek/_DSC7365.jpg" alt="kep2" onclick="kepreKatt()" />
+        <img src="kepek/_DSC7371_1.jpg" alt="kep3" onclick="kepreKatt()" />
+        <img src="kepek/_DSC7444.jpg" alt="kep4" onclick="kepreKatt()" />
+        <img src="kepek/_DSC7515.jpg" alt="kep5" onclick="kepreKatt()" />
+      </article>
+    </main>
   </body>
 </html>

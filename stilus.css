@@ -3,34 +3,34 @@
     box-sizing: border-box;
 }
 
+main{
+    margin: auto;
+    max-width: 1200px;
+    border: 1px solid black;
+}
 
 
-#galeria{
+section{
     display: flex;
-    flex-direction: row;
-
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items:  stretch;
+    justify-content: flex-start;
 }
 button{
-    flex: 0 0 1%;
+    width: 2%;
 }
-#nagyKep{
-    width: 400px;
-    flex:0 0 98%;
-
+#nagykep{
+    width: 96%;
 }
-.kisKepek{
+article{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.kisKepek img{
+article img{
     border: 1px solid black;
     border-radius: 4%;
     padding: 7px;
-    
-    width: 200px;
-    flex: 0 0 33%;
+    width: 33%;
 }
