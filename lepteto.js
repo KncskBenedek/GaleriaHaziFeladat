@@ -1,27 +1,27 @@
 window.addEventListener("load", init, false);
 var kepekObj = [
     {
-        ut: "kepek/_DSC7025.jpg",
+        ut: "kepek/kep_01.jpg",
         leiras: "Bolond állatok",
 
     },
     {
-        ut: "kepek/_DSC7365.jpg",
+        ut: "kepek/kep_02.jpg",
         leiras: "virágzó út",
 
     },
     {
-        ut: "kepek/_DSC7371_1.jpg",
+        ut: "kepek/kep_03.jpg",
         leiras: "Nap lemente",
 
     },
     {
-        ut: "kepek/_DSC7444.jpg",
+        ut: "kepek/kep_04.jpg",
         leiras: "Tájkép",
 
     },
     {
-        ut: "kepek/_DSC7515.jpg",
+        ut: "kepek/kep_05.jpg",
         leiras: "Akác sor",
 
     },
